@@ -4,11 +4,11 @@ public class CurrencyExchange {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Example exchange rates (you can update these as per real-time rates)
-        double usdRate = 0.012;  // 1 INR = 0.012 USD
-        double eurRate = 0.011;  // 1 INR = 0.011 EUR
-        double gbpRate = 0.0095; // 1 INR = 0.0095 GBP
-        double jpyRate = 1.70;   // 1 INR = 1.70 JPY
+        
+        double usdRate = 0.012;  
+        double eurRate = 0.011; 
+        double gbpRate = 0.0095;
+        double jpyRate = 1.70;  
 
         // Input from user
         System.out.print("Enter amount in INR: ");
@@ -48,3 +48,4 @@ public class CurrencyExchange {
         sc.close();
     }
 }
+
